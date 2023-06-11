@@ -81,6 +81,45 @@ header nav a:active {
     }
 }
 
+.dark-purple {
+    color: rgb(60, 0, 120);
+}
+
+
+/* ===== Components ===== */
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Media_objects */
+
+.media-object {
+    display: grid;
+    grid-template-columns: fit-content(240px) 1fr;
+    grid-template-areas: "image content";
+}
+
+.media-object img {
+    grid-area: image;
+    padding-right: 2em;
+}
+
+.media-object .content {
+    grid-area: content;
+    line-height: 1.6;
+}
+
+@media (max-width: 650px) {
+    .media-object {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .media-object img {
+        width: 300px;
+        padding: 0 0 1.5em 0;
+    }
+}
+
 
 /* ===== Elements ===== */
 
