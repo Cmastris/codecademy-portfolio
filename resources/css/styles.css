@@ -71,3 +71,14 @@ h2 {
     font-family: "Roboto Mono", monospace;
     font-weight: 300;
 }
+
+h2 {
+    margin-bottom: 0.8em;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
