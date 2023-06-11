@@ -64,6 +64,24 @@ header nav a:active {
 }
 
 
+/* ===== Utilities ===== */
+
+.content-container {
+    padding: 3.5em 10%;
+}
+
+.content-container-narrow {
+    padding: 3.5em 20%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .content-container,
+    .content-container-narrow {
+        padding: 3em 4%;
+    }
+}
+
+
 /* ===== Elements ===== */
 
 h1,
