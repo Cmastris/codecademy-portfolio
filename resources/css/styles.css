@@ -1,0 +1,13 @@
+/* ===== Universal ===== */
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* ===== Elements ===== */
+
+h1,
+h2 {
+    font-family: "Roboto Mono", monospace;
+}
