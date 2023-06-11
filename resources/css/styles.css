@@ -7,11 +7,26 @@ body {
 header {
     display: flex;
     align-items: center;
-    padding: 0 5%;
+    padding: 0 7.5%;
+    font-family: "Roboto Mono", monospace;
 }
 
 header .logo {
-    flex-grow: 4;  /* Push nav to the right-hand side on larger devices */
+    flex-grow: 5;  /* Push nav to the right-hand side on larger devices */
+    padding: 0.8em;
+    font-size: 2em;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+
+    header .logo {
+        font-size: 1.4em;
+    }
 }
 
 header nav {
