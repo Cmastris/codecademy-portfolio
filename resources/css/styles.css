@@ -4,6 +4,20 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+header .logo {
+    flex-grow: 4;  /* Push nav to the right-hand side on larger devices */
+}
+
+header nav {
+    flex-grow: 1;
+}
+
 
 /* ===== Elements ===== */
 
