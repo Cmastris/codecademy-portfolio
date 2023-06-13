@@ -139,3 +139,19 @@ h2 {
         font-size: 1.6em;
     }
 }
+
+a:link {
+    color: rgb(90, 0, 180);
+}
+
+a:visited {
+    color: rgb(60, 0, 120);
+}
+
+a:hover {
+    color: rgb(120, 40, 240);
+}
+
+a:active {
+    text-decoration: none;
+}
