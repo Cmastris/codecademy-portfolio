@@ -66,6 +66,14 @@ header nav a:active {
 
 /* ===== Utilities ===== */
 
+.collapsed .expanded-content {
+    display: none;
+}
+
+.expanded .expanded-content {
+    display: block;
+}
+
 .content-container {
     padding: 3.5em 10%;
 }
@@ -117,6 +125,59 @@ header nav a:active {
     .media-object img {
         width: 300px;
         padding: 0 0 1.5em 0;
+    }
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.tiles h2 {
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  /* Align links and toggle at bottom */
+    min-width: 300px;
+    width: 20%;
+    margin: 1.5em 2em;
+    background-color: rgb(250, 248, 255);
+    border: 2px solid rgb(60, 0, 120);
+    box-shadow: 6px 6px 6px rgb(190, 180, 200);
+}
+
+.tile .main-content {
+    margin-bottom: auto;  /* Align main content at top */
+    padding: 2em 1.5em;
+}
+
+.tile .links a {
+    display: inline-block;
+    margin: 0 0.5em 2em 0.5em;
+}
+
+.tiles .expand-toggle {
+    padding: 0.8em 1em;
+    background-color: rgb(60, 0, 120);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.tiles .expand-toggle:hover {
+    background-color: rgb(90, 0, 180);
+}
+
+@media screen and (max-width: 1400px) {
+    .tile {
+        min-width: 250px;
     }
 }
 
