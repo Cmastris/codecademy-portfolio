@@ -93,6 +93,11 @@ header nav a:active {
     color: rgb(60, 0, 120);
 }
 
+.section-heading {
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
 
 /* ===== Components ===== */
 
@@ -101,11 +106,6 @@ header nav a:active {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
-}
-
-.logos h2 {
-    width: 100%;
-    margin-bottom: 1.5em;
 }
 
 .logos .logo {
@@ -154,11 +154,6 @@ header nav a:active {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
-}
-
-.tiles h2 {
-    width: 100%;
-    margin-bottom: 1.5em;
 }
 
 .tile {
