@@ -135,6 +135,14 @@ header nav a:active {
     line-height: 1.6;
 }
 
+.media-object .logos {
+    justify-content: flex-start;
+}
+
+.media-object .logo {
+    margin-left: 0;
+}
+
 @media (max-width: 650px) {
     .media-object {
         display: flex;
@@ -146,6 +154,14 @@ header nav a:active {
     .media-object .media {
         width: 300px;
         padding: 0 0 1.5em 0;
+    }
+
+    .media-object .logos {
+        justify-content: center;
+    }
+
+    .media-object .logo {
+        margin: 1em;
     }
 }
 
