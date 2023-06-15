@@ -11,6 +11,8 @@ function toggleTileExpansion(event) {
         tile.classList.remove('expanded');
         event.target.innerHTML = '+ Show More';
     }
+
+    tile.scrollIntoView();
 }
 
 
