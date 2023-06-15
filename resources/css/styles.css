@@ -125,7 +125,7 @@ header nav a:active {
     grid-template-areas: "image content";
 }
 
-.media-object img {
+.media-object .media {
     grid-area: image;
     padding-right: 2em;
 }
@@ -143,7 +143,7 @@ header nav a:active {
         text-align: center;
     }
 
-    .media-object img {
+    .media-object .media {
         width: 300px;
         padding: 0 0 1.5em 0;
     }
